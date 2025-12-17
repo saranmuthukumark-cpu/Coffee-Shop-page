@@ -21,7 +21,7 @@ html{
 }
 
 .hero {
-  background-image: url(C:\cyberdude\coffee-landingpage\coffee\src\assets\bg-hero2.png);
+  background-image: url(/bg-hero2.png);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -33,7 +33,7 @@ html{
 
 
 .hero-bg {
-  background-image: url(C:\cyberdude\coffee-landingpage\coffee\src\assets\bg-zero.png);
+  background-image: url(/bg-zero.png);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -43,7 +43,7 @@ html{
   height: 100vh;
 }
 .hero-bgg {
-  background-image: url(C:\cyberdude\coffee-landingpage\coffee\src\assets\bg-zero1.png);
+  background-image: url(/bg-zero1.png);
 
   background-repeat: no-repeat;
   background-position: center;
