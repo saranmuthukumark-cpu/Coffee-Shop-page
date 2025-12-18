@@ -11,3 +11,9 @@ Coffee Shop Landing page
 
 
 Live Demo : https://coffee-shop-page-two.vercel.app/
+
+
+Tech Stack Used:
+
+> Html
+> Tailwindcss
