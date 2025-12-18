@@ -62,3 +62,13 @@ html{
   padding: 0;
   height: 100vh;
 }
+.snacks-bg {
+  background-image: url(/menu-bg.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
