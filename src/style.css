@@ -52,3 +52,13 @@ html{
   padding: 0;
   height: 100vh;
 }
+.hero-bggg {
+  background-image: url(/bg-zero001.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}

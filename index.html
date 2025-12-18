@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Pacifico&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="src/style.css" />
-    <link rel="shortcut icon" href="public/cof-fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="public/cof-fav.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -23,7 +23,7 @@
     <nav class=" ">
       <div
         class="flex items-center justify-between px-10 fixed w-full top-0 z-10 nav-bar">
-        <div>
+        <div >
           <a href="#"
             ><img
               src="public/Cocotime logo .png"
@@ -31,7 +31,7 @@
               class="h-20"
           /></a>
         </div>
-        <div class="flex gap-15 text-xl items-center font">
+        <div class="hidden md:flex gap-15 text-xl items-center font">
           <h1>
             <a
               href="#"
@@ -50,42 +50,46 @@
             <a
               href="#reviews"
               class="hover:bg-[#593b1d] hover:text-white p-2 hover:rounded-2xl"
-              >Review</a
+              >Reviews</a
             >
           </h1>
           <h1>
             <a
               href="#contact"
-              class="hover:bg-[#593b1d] hover:text-white p-2 hover:rounded-2xl"
+              class="hover:bg-[#593b1d] hover:text-white p-2 hover:rounded-2xl flex"
               >Contact Us</a
             >
           </h1>
           <h1>
             <a
               href="https://github.com/saranmuthukumark-cpu "
-              class="hover:bg-[#593b1d] hover:text-white p-2 hover:rounded-2xl "
+              class="hover:bg-[#593b1d] hover:text-white p-2 hover:rounded-2xl"
               target="_blank"
               ><i class="fa-brands fa-github fa-xl mb-5"></i
             ></a>
           </h1>
         </div>
+    
       </div>
+      
     </nav>
 
     <!-- hero section -->
-    <section class="hero">
-      <div class="pt-65 pl-20">
+    <section class="hero bg-contain">
+      <div class="pt-65 pl-20 ">
         <div>
-          <h1 class="text-5xl hero-font">
-            Start your day with a
-            <span class="font text-5xl text-[#593b1d]">Fresh cup.</span>
+          <h1 class="text-7xl hero-font">
+            Start your day with a <br />
+            <span class="font text-6xl text-[#593b1d] pl-[13%]"
+              >Fresh cup.</span
+            >
           </h1>
 
-          <p class="pl-45 pt-10 text-2xl font mb-15">Made fresh for you😊.</p>
+          <p class="pl-48 pt-10 text-2xl font mb-15">Made fresh for you😊.</p>
         </div>
 
         <div
-          class="border rounded-3xl border-gray-200 inline p-3 ml-60 text-white bg-[#593b1d]">
+          class="border rounded-3xl border-gray-200 inline p-3 ml-60 px-4 text-white bg-[#593b1d] hover:text-black hover:bg-[#d3ad7f]">
           <a href="#menu">Get now </a>
         </div>
       </div>
@@ -94,16 +98,19 @@
     <!-- menu section -->
 
     <section id="menu" class="hero-bgg">
-      <div class="max-w-7xl mx-auto px-6">
+      <div class=" mx-auto px-6">
         <div class="text-center mb-12">
           <h2 class="text-4xl font-bold text-[#593b1d] py-15 font">Our Menu</h2>
+          <p class="hero-font text-2xl">
+            <span class="font-bold">Hot & Black Coffees</span>
+          </p>
         </div>
 
-        <div class="flex flex-wrap gap-6 justify-center">
+        <div class="flex flex-wrap  gap-6 justify-center">
           <div
             class="w-[20%] bg-[#553524] rounded-xl p-6 text-center shadow-lg hover:scale-105 transition">
             <img
-              src="public/coffee-1.jpg"
+              src="public/cof-4.jpg"
               alt="Espresso"
               class="mx-auto h-50 w-60 mb-4 rounded-lg" />
             <h3 class="text-xl font-semibold text-white">Espresso</h3>
@@ -127,10 +134,10 @@
           <div
             class="w-[20%] bg-[#553524] rounded-xl p-6 text-center shadow-lg hover:scale-105 transition">
             <img
-              src="public/coffee-3.jpg"
+              src="public/cof-1.jpg"
               alt="Latte"
               class="mx-auto h-50 w-60 mb-4 rounded-lg" />
-            <h3 class="text-xl font-semibold text-white">Cold Brew Coffee</h3>
+            <h3 class="text-xl font-semibold text-white">Brew Coffee</h3>
             <p class="text-gray-400 text-sm mt-2">Smooth espresso & milk</p>
             <p class="text-[#d3ad7f] font-bold text-lg mt-3">₹200</p>
           </div>
@@ -146,15 +153,68 @@
             <p class="text-[#d3ad7f] font-bold text-lg mt-3">₹220</p>
           </div>
         </div>
-
-
-
       </div>
     </section>
+
+    <!--  cold coffee section -->
+    <section id="menu" class="hero-bggg">
+      <div class=" mx-auto px-6">
+        <div class="text-center mb-12">
+          <p class="font text-3xl pl-10 pt-10">Cold Coffees</p>
+        </div>
+
+        <div class=" flex flex-wrap  gap-6 justify-center">
+          <div
+            class="w-[20%] bg-[#553524] rounded-xl p-6 text-center shadow-lg hover:scale-105 transition">
+            <img
+              src="public/coffee-3.jpg"
+              alt="Espresso"
+              class="mx-auto h-50 w-60 mb-4 rounded-lg" />
+            <h3 class="text-xl font-semibold text-white">Iced Coffee</h3>
+            <p class="text-gray-400 text-sm mt-2">Hot coffee chilled</p>
+            <p class="text-[#d3ad7f] font-bold text-lg mt-3">₹140</p>
+          </div>
+
+          <div
+            class="w-[20%] bg-[#553524] rounded-xl p-6 text-center shadow-lg hover:scale-105 transition">
+            <img
+              src="public/cof-6.jpg"
+              alt="Cappuccino"
+              class="mx-auto h-50 w-60 mb-4 rounded-lg" />
+            <h3 class="text-xl font-semibold text-white">Iced Latte</h3>
+            <p class="text-gray-400 text-sm mt-2">Espresso, cold milk</p>
+            <p class="text-[#d3ad7f] font-bold text-lg mt-3">₹210</p>
+          </div>
+
+          <div
+            class="w-[20%] bg-[#553524] rounded-xl p-6 text-center shadow-lg hover:scale-105 transition">
+            <img
+              src="public/cof-2.jpg"
+              alt="Latte"
+              class="mx-auto h-50 w-60 mb-4 rounded-lg" />
+            <h3 class="text-xl font-semibold text-white">Affogato</h3>
+            <p class="text-gray-400 text-sm mt-2">Espresso over ice cream</p>
+            <p class="text-[#d3ad7f] font-bold text-lg mt-3">₹300</p>
+          </div>
+
+          <div
+            class="w-[20%] bg-[#553524] rounded-xl p-6 text-center shadow-lg hover:scale-105 transition">
+            <img
+              src="public/cof-3.jpg"
+              alt="Mocha"
+              class="mx-auto h-50 w-60 mb-4 rounded-lg" />
+            <h3 class="text-xl font-semibold text-white">Dalgona Coffee</h3>
+            <p class="text-gray-400 text-sm mt-2">Whipped coffee foam</p>
+            <p class="text-[#d3ad7f] font-bold text-lg mt-3">₹250</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- review section-->
 
     <section id="reviews" class="bg-[#F7ECE0] py-16">
-      <div class="max-w-6xl mx-auto">
+      <div class=" mx-auto px-5">
         <div class="text-center mb-12">
           <h2 class="text-4xl font-bold text-[#593b1d] font">
             Customer Reviews
@@ -232,7 +292,7 @@
     <!-- contact section -->
 
     <section class="hero-bg">
-      <div class="max-w-6xl mx-auto">
+      <div class="px-40 mx-auto">
         <div class="text-center mb-12">
           <h2 class="text-4xl font-bold pt-15 text-[#593b1d] font" id="contact">
             Contact Us
@@ -304,6 +364,19 @@
     <!-- footer section -->
     <section class="bg-[#F7ECE0] text-[#593b1d] font-medium py-4">
       <div class="text-center">
+        <div class="px-30 flex flex-wrap justify-between">
+          <div>
+            <a href="#">  <img src="public/Cocotime logo .png" alt="logo" class="h-20" />
+          </div></a>
+          
+          <div class="flex gap-10 flex-wrap pt-3">
+            <a href="#" class="hover:underline"><p>Home</p></a>
+            <a href="#menu" class="hover:underline"><p>Menu</p></a>
+            <a href="#reviews" class="hover:underline"><p>Reviews</p></a>
+            <a href="#contact" class="hover:underline"><p>Contact Us</p></a>
+          </div>
+        </div>
+<hr class="pb-5 text-amber-700">
         @2025 All Rights Reserved | Made by Saran😇.
       </div>
     </section>
