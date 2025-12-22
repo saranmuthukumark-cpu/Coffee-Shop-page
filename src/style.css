@@ -74,28 +74,3 @@ html{
 }
 
 
-/* mobile */
-@media (max-width: 768px) {
-  .hero,
-  .hero-bg,
-  .hero-bgg,
-  .hero-bggg,
-  .snacks-bg {
-    min-height: 80vh;       
-    background-position: top;
-      background-size: cover;
-    background-position: right;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero,
-  .hero-bg,
-  .hero-bgg,
-  .hero-bggg,
-  .snacks-bg {
-    min-height: 70vh;
-    background-size: cover;
-    background-position: right;
-  }
-}
